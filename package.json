@@ -1,0 +1,24 @@
+{
+  "name": "eleventy-plugin-faker",
+  "description": "Faker.js plugin for 11ty.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/eleventy-plugin-faker/issues"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/eleventy-plugin-faker#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/eleventy-plugin-faker.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
