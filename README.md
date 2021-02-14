@@ -11,7 +11,15 @@ npm i github:pdehaan/eleventy-plugin-faker -D
 ## SETUP
 
 ```js
+const faker = require("eleventy-plugin-faker");
 
+module.exports = (eleventyConfig) => {
+  eleventyConfig.addPlugin(faker);
+
+  return {
+    // ...
+  };
+};
 ```
 
 ## USAGE
